@@ -1,0 +1,3 @@
+directive @auth on FIELD_DEFINITION
+directive @dataLoader on FIELD_DEFINITION
+directive @find(by: [String]) on FIELD_DEFINITION
